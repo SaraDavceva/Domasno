@@ -1,0 +1,34 @@
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+#user-name,
+#user-phone,
+#user-company {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+#user-name {
+  background-color: cadetblue;
+}
+
+#user-phone{
+  background-color: rgb(58, 161, 164);
+}
+
+#user-company{
+  background-color: rgb(0, 150, 155);
+}
+
+.bold-text {
+  font-weight: bold;
+  margin: 5px;
+  font-size: 18px;
+  text-decoration: underline;
+}
